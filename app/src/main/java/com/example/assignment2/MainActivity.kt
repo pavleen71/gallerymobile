@@ -15,6 +15,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -90,6 +91,7 @@ fun DisplayImage(@DrawableRes image: Int) {
     ) {
         Card(
             elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+            shape = RectangleShape,
             modifier = Modifier
                 .fillMaxSize()
                 .padding(44.dp)
@@ -108,7 +110,7 @@ fun DisplayImage(@DrawableRes image: Int) {
 @Composable
 fun Title(@StringRes title: Int, @StringRes artist: Int, year: Int) {
     Card(
-
+        shape = RectangleShape,
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
         modifier = Modifier
 
