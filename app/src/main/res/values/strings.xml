@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="las_meninas">Las Meninas</string>
+    <string name="starry_night">Starry Night</string>
+    <string name="starry_night_artist">Vincent Van Gogh</string>
+    <string name="girl_with_pearl_earring">Girl with pearl Earring</string>
+    <string name="girl_with_pearl_earring_artist">Johannes Verma</string>
+    <string name="las_meninas_artist">Diego Velazquez</string>
+</resources>
